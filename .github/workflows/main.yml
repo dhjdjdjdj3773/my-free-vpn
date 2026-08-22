@@ -7,6 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Этот блок принудительно заставляет GitHub дать права на запись
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -16,15 +18,15 @@ jobs:
           curl -s "https://githubusercontent.com" > source1.txt
           curl -s "https://githubusercontent.com" > source2.txt
           curl -s "https://githubusercontent.com" > source3.txt
-
+          
           cat source1.txt source2.txt source3.txt | sort -u > my_sub.txt
           base64 -w 0 my_sub.txt > index.txt
           rm source1.txt source2.txt source3.txt my_sub.txt
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name "VPN Bot"
-          git config --global user.email "bot@github.com"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add index.txt
           git commit -m "Automated VPN Update" || exit 0
           git push
