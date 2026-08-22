@@ -4,21 +4,30 @@ on:
     - cron: '0 */3 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch and Merge Free VPNs
         run: |
+          mkdir -p public
           curl -s "https://githubusercontent.com" > source1.txt
           curl -s "https://githubusercontent.com" > source2.txt
           curl -s "https://githubusercontent.com" > source3.txt
           
           cat source1.txt source2.txt source3.txt | sort -u > my_sub.txt
-          base64 -w 0 my_sub.txt > index.txt
+          base64 -w 0 my_sub.txt > public/index.txt
           rm source1.txt source2.txt source3.txt my_sub.txt
 
-      - name: Upload Finished Subscription File
+      - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
