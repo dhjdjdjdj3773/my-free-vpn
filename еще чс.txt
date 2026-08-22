@@ -1,3 +1,9 @@
+#profile-title:@help_vpn_is_bot
+#profile-update-interval: 1
+#support-url:@help_vpn_is_bot
+#profile-web-page-url:https://github.com/dhjdjdjdj3773/my-free-vpn.git
+#announce:https://t.me/my_free_VPN
+#subscription-userinfo:upload=0; download=0; total=0; expire=0
 vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.210.216:62145?&type=tcp&headerType=none&path=%2F#%E8%8A%82%E7%82%B9%E6%97%A5%E6%9C%9F%EF%BC%9A2026-08-22
 vless://020530ec-acf3-41a3-b93e-838e6860bd74@109.196.101.18:4100?&type=ws&headerType=none&host=live.ok.ru&path=%2Fv1#RU%E3%80%90%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%EF%BC%9Ahttps%3A//a9a.xyz%E3%80%911
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg@95.40.120.162:8319#HK%E3%80%90%E6%9C%BA%E5%9C%BA%E6%8E%A8%E8%8D%90%EF%BC%9Ahttps%3A//a9a.xyz%E3%80%912
