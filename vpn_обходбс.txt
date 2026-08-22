@@ -1,8 +1,8 @@
 #profile-title:обход бс
 #profile-update-interval: 1
-#support-url:https://t.me/my_free_VPN
+#support-url:@help_vpn_is_bot
 #profile-web-page-url:https://github.com/dhjdjdjdj3773/my-free-vpn.git
-#announce:https://t.me/my_free_VPN
+#announce:@help_vpn_is_bot
 #subscription-userinfo: upload=0; download=0; total=0; expire=0
 vless://ba222add-6ac1-45f1-9a18-f91cb38e324f@201.51.1.84:16923?encryption=none&fp=chrome&mode=gun&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&security=reality&serviceName=neurex&sid=10ffb85da1c2d986&sni=api-maps.yandex.ru&type=grpc#%F0%9F%87%B7%F0%9F%87%BAОбходы - TG: https://t.me/my_free_VPN
 vless://aef0e934-09d7-4b8f-b3bc-de78d2eec928@45.90.32.132:2200?encryption=none&host=rzd.ru&path=%2Fv1&security=none&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20Beget%20%E2%80%94%20%231
