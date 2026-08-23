@@ -23,7 +23,7 @@ vless://baf0ea60-0df6-4cfe-945c-8ab1fbf5bb07@node4.frost-api.com:443?encryption=
 vless://baf0ea60-0df6-4cfe-945c-8ab1fbf5bb07@node3.frost-api.com:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&fp=chrome&pbk=SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw&sid=fb916778d4#%E2%AC%9C%20%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20-%202
 vless://baf0ea60-0df6-4cfe-945c-8ab1fbf5bb07@node2.frost-api.com:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=max.ru&fp=chrome&pbk=SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw&sid=66c17371#%E2%AC%9C%20%D0%91%D0%B5%D0%BB%D1%8B%D0%B9%20%D1%81%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20-%201
 
-vless://00000000-0000-0000-0000-000000000000@scalavpn:443?security=none&encryption=none&type=tcp#👇Открытые источники 👇
+vless://00000000-0000-0000-0000-000000000000:443?security=none&encryption=none&type=tcp#👇Открытые источники 👇
 
 trojan://s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui@172.236.220.10:443?security=tls&headerType=none&fp=chrome&type=tcp&sni=172.236.220.10#馃殌 Server #1
 vless://a32c5112-3437-4417-a727-74e0b17672d0@31.129.42.131:443?flow=xtls-rprx-vision&encryption=none&type=tcp&security=reality&fp=qq&sni=ads.x5.ru&pbk=c8fQY4Ywo9NPZS0CuujyztRI-8z0D7fREoz8laMDVkQ&sid=c31f9a0e7d4b52#馃殌 Server #2
